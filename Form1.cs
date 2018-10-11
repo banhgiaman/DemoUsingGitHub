@@ -17,20 +17,10 @@ namespace DemoUsingGitHub
         }
 
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-
-            if (textBox1.Text == "")
-            {
-                int a = int.Parse(textBox1.Text);
-
-            }
-        }
-
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            int a = int.Parse("10");
+            if(MessageBox.Show("ban muon dong","thong Bao",MessageBoxButtons.OKCancel,MessageBoxIcon.Question)==DialogResult.OK)
+            Application.Exit();
 
         }
     }
