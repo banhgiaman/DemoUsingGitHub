@@ -18,8 +18,11 @@ namespace DemoUsingGitHub
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int a = int.Parse(textBox1.Text);
-
+            
+            if (textBox1.Text == "")
+            {
+                int a = int.Parse(textBox1.Text);
+            }
         }
     }
 }
