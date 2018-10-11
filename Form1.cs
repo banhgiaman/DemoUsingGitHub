@@ -18,6 +18,7 @@ namespace DemoUsingGitHub
 
         private void button4_Click(object sender, EventArgs e)
         {
+            if(MessageBox.Show("ban muon dong","thong Bao",MessageBoxButtons.OKCancel,MessageBoxIcon.Question)==DialogResult.OK)
             Application.Exit();
         }
     }
