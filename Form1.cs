@@ -21,5 +21,10 @@ namespace DemoUsingGitHub
             int a = int.Parse(textBox1.Text);
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse("10");
+        }
     }
 }
