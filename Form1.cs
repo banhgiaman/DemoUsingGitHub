@@ -15,5 +15,10 @@ namespace DemoUsingGitHub
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse("10");
+        }
     }
 }
